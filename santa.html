@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="icon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="icon.png" sizes="16x16" />
+	<title>Tell Santa Now!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://use.fontawesome.com/0b77f3d36a.js"></script>
+</head>
+<body>
+	<nav class="navbar">
+
+	<span class="navbar-toggle" id="js-navbar-toggle">
+		<i class="fa fa-bars"></i>
+	</span>
+
+	<a href="#" class="logo"><img src="icon.png" width="50" height="50"></a>
+
+	<ul class="main-nav" id="js-menu">
+		<li>
+			<a href="index.html" class="nav-links">Home</a>
+		</li>
+
+		<li>
+			<a href="santa.html" class="nav-links">Inbox Santa</a>
+		</li>
+	</ul>
+</nav>
+
+<br><h1>Welcome! Please Tell Santa What You Want!</h1><br><br><br><br>
+
+<form name="form1" method="post" action="mailto:d200026a@sc.edu.my" enctype="text/plain" onsubmit="return validate();">
+	 <p><strong>Name: </strong><br><input type="text" name="name" size="50"></p>
+	 <p><strong>Your Wish: </strong><br><input type="text" name="wish" size="50"></p>
+	 <p><strong>Your Hope: </strong><br><input type="text" name="hope" size="50"></p><br><br>
+
+	 <p><input type="submit"></p>
+</form>
+
+<script src="jav.js"></script>
+</body>
+</html>
